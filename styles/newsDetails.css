@@ -1,0 +1,11 @@
+.newsDetails {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 40px;
+}
+.newsDetails img {
+  border-radius: 30px;
+}
+.title {
+  margin-bottom: 10px;
+}

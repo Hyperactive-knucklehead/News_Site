@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Daily Star</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div>
+      <!-- header start -->
+      <header class="header-container">
+        <nav>
+          <div class="inside-container">
+            <div class="logo">
+              <a href="index.html">The Daily Star</a>
+            </div>
+            <div class="allLinks">
+              <ul class="links">
+                <li><a href="#">Bangladesh</a></li>
+                <li>
+                  <a href="#">Sports</a>
+                  <ul>
+                    <li><a href="#">Cricket </a></li>
+                    <li><a href="#">Football</a></li>
+                    <li><a href="#">Bollibol </a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Business</a>
+                  <ul>
+                    <li><a href="#">It Sector</a></li>
+                    <li><a href="#">Tesla</a></li>
+                    <li><a href="#">SpaceX</a></li>
+                  </ul>
+                </li>
+                <li><a href="#"> Stories</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- header end -->
+      <main>
+        <div class="container">
+          <div class="card">
+            <div class="card__header">
+              <img
+                src="https://source.unsplash.com/600x400/?computer"
+                alt="card__image"
+                class="card__image"
+                width="600"
+              />
+            </div>
+            <div class="card__body">
+              <span class="tag tag-blue">Technology</span>
+              <h4>What's new in 2022 Tech</h4>
+              <p>
+                Predicting the future is hard and risky. Predicting the future
+                in the computing industry is even harder and riskier due to
+                dramatic changes in technology and limitless challenges to
+                innovation. Only a small fraction of innovations truly disrupt
+                the state of the art.
+              </p>
+              <a onclick="tech()" href="newsDetails.html">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__header">
+              <img
+                src="https://source.unsplash.com/600x400/?food"
+                alt="card__image"
+                class="card__image"
+                width="600"
+              />
+            </div>
+            <div class="card__body">
+              <span class="tag tag-brown">Food</span>
+              <h4>Delicious Food</h4>
+              <p>
+                "There is no love sincerer than the love of food," George
+                Bernard Shaw said. Judging by the number of amazing dishes out
+                there, he was right.
+              </p>
+              <a onclick="food()" href="newsDetails.html">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__header">
+              <img
+                src="https://source.unsplash.com/600x400/?car,automobile"
+                alt="card__image"
+                class="card__image"
+                width="600"
+              />
+            </div>
+            <div class="card__body">
+              <span class="tag tag-red">Automobile</span>
+              <h4>Race to your heart content</h4>
+              <p>
+                FIA race director Michael Masi has refuted the suggestion from
+                several Formula 1 drivers that the rules of racing are unclear
+                following the controversial Max Verstappen/Lewis Hamilton
+                incident in Brazil!
+              </p>
+              <a onclick="race()" href="newsDetails.html">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__header">
+              <img
+                src="https://source.unsplash.com/600x400/?cricket"
+                alt="card__image"
+                class="card__image"
+                width="600"
+              />
+            </div>
+            <div class="card__body">
+              <span class="tag tag-red">T20 Match</span>
+              <h4>T20 Cricket match</h4>
+              <p>
+                Uncapped players Mahmudul Hasan and Rejaur Rahman have been
+                picked in the Bangladesh squad for the first Test against
+                Pakistan that will get underway on November 26 in Chattogram.
+                Taskin Ahmed was not considered as he required stitches on his
+                hand due to an injury sustained in the third T20 against
+                Pakistan.
+              </p>
+              <a onclick="cricket()" href="newsDetails.html">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__header">
+              <img
+                src="https://source.unsplash.com/600x400/?football"
+                alt="card__image"
+                class="card__image"
+                width="600"
+              />
+            </div>
+            <div class="card__body">
+              <span class="tag tag-red">League</span>
+              <h4>LALIGA League</h4>
+              <p>
+                Robert Lewandowski is in the running to retain his Best FIFA
+                Men's Player award after he was named Monday on an 11-man
+                shortlist alongside Karim Benzema and Jorginho. Perennial
+                candidates Lionel Messi and Cristiano Ronaldo feature among the
+                nominees, with Neymar, Mohamed Salah and Kylian Mbappe also up
+                for a prize first awarded in 2017. Erling Haaland, N'Golo Kante
+                and Kevin De Bruyne complete the list of potential winners.
+              </p>
+              <a onclick="football()" href="newsDetails.html">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="formContainer">
+          <div>
+            <h1>contact us</h1>
+          </div>
+          <div>
+            <h4 style="text-align: center">We'd love to hear from you!</h4>
+          </div>
+          <div class="input-container">
+            <div>
+              <div class="styled-input wide">
+                <input type="text" required />
+                <label>Name</label>
+              </div>
+            </div>
+            <div>
+              <div class="styled-input">
+                <input type="text" required />
+                <label>Email</label>
+              </div>
+            </div>
+            <div>
+              <div class="styled-input" style="float: right">
+                <input type="text" required />
+                <label>Phone Number</label>
+              </div>
+            </div>
+            <div>
+              <div class="styled-input wide">
+                <textarea required></textarea>
+                <label>Message</label>
+              </div>
+            </div>
+            <div>
+              <div class="btn-lrg submit-btn">Send Message</div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer-distributed">
+        <div class="footer-left">
+          <h3>The Daily<span>Star</span></h3>
+
+          <p class="footer-links">
+            <a href="#">Home</a>
+            |
+            <a href="#">Blog</a>
+            |
+            <a href="#">About</a>
+            |
+            <a href="#">Contact</a>
+          </p>
+
+          <p class="footer-company-name">
+            © 2019 Eduonix Learning Solutions Pvt. Ltd.
+          </p>
+        </div>
+
+        <div class="footer-center">
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p>
+              <span>309 - Rupa Solitaire, Bldg. No. A - 1, Sector - 1</span>
+              Mahape, Navi Mumbai - 400710
+            </p>
+          </div>
+
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>+91 22-27782183</p>
+          </div>
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p>
+              <a href="mailto:support@eduonix.com">rahmanmahi02@gmail.com</a>
+            </p>
+          </div>
+        </div>
+        <div class="footer-right">
+          <p class="footer-about-us">
+            <span>About us</span>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor
+            ipsum eaque optio rem. Saepe eveniet reprehenderit esse aperiam,
+            quos ipsum?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Incidunt in reiciendis adipisci recusandae corrupti suscipit sunt
+            labore aspernatur nesciunt eveniet, inventore error quasi maxime.
+            Atque esse totam quia perferendis omnis.
+          </p>
+          <div class="footer-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/newsDetails.js"></script>
+  </body>
+</html>
